@@ -1,0 +1,270 @@
+body{
+  background: #55D6F4;
+ 
+ 
+}
+
+
+  
+  center .color_ville{
+  
+    width: 430px;
+    height: 140px;
+    background-image: linear-gradient(to bottom right, rgb(0, 34, 230), rgb(3, 3, 99));
+    border-radius: 10px;
+    box-shadow: 3px 3px orange,  0 .4em ;
+    display: flex;
+    justify-content: space-between;
+
+    
+  }
+  .box_weather{
+   
+    padding: 2em 0;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 2px  rgba(0,0,0, 0.25);
+    top: 10px;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+    
+  }
+  .tp .fa-sun{
+    color: goldenrod;
+   
+    animation: rotation 4s infinite;
+
+  }
+  .chorok{
+
+    background: linear-gradient(120deg,#ecec4a,#FF8C00,#ff9513,#ecec4a,#ff9513) ;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: flex;
+    flex-direction: column;
+  
+    }
+
+    .ghorob{
+  
+    
+  
+      background: linear-gradient(90deg,#FAEBD7,#C0C0C0,#FFFAFA,#C0C0C0) ;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      display: flex;
+      flex-direction: column;
+   
+   
+   
+   }
+   .chorok_ghoron{
+    width: 200px;
+    height: 100px;
+        margin-top: 10px;  
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 9px;
+        margin-bottom: 6px;
+  }
+  
+ 
+  #sunrise{
+    font-size: 15px;
+
+  }
+  #sunset{
+
+    font-size: 15px;
+  }
+  
+  
+  @keyframes rotation{
+    100%{transform: rotate(360deg);}
+  }
+  center .deux{
+    width: 430px;
+    height: 180px;
+    background-image: linear-gradient(to bottom right,  rgb(3, 3, 99),rgb(0, 34, 230));
+    border-radius: 10px;
+    margin: 7px;
+    box-shadow: 3px 3px 3px orange,  0 .4em ;
+  }
+  
+ 
+  
+   .absolue{
+    width: 410px;
+    height: 150px;
+  background-color: #03aafe64;
+  margin-top: 5px;
+  margin-left: 7px;
+position: absolute;
+    font-size: 15px;
+    color: white;
+    box-shadow: 2px 10px  rgba(0,0,0, 0.25);
+    display: flex;
+   justify-content: space-around;
+   padding-bottom: 10px;
+
+
+   
+  
+  
+  }
+ 
+  .absolue .a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  
+  }
+  
+  .absolue .b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  .absolue .c{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  }
+  .absolue .d{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+  }
+  .fa-droplet{
+  
+    background: linear-gradient(90deg,#0623df,#06d0eb,#0623df,#F0FFF0,#06d0eb,#F0FFF0) ;
+    background-size: 400%;
+  
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animatee 10s linear infinite;
+    }
+    @keyframes animatee {
+    
+      0%{
+        background-position: 0%;
+      }
+      100%{
+        background-position:400% ;
+      }
+      
+    }
+    
+    
+     
+    
+  center .semaine{
+  
+    width: 430px;
+    height: 232px;
+    background-image: linear-gradient(to bottom right, rgb(0, 34, 230), rgb(3, 3, 99));
+    border-radius: 10px;
+    margin: 7px ;
+    box-shadow: 3px 3px orange,  0 .4em ;
+   
+  
+  
+  }
+ 
+  .aaa{
+    width: 400px;
+    height: 194px;
+    position: absolute;
+  background-color: #03aafe64;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 2px 10px  rgba(0,0,0, 0.25);
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 10px;
+   
+  }
+  
+  .aaa .jours{
+  display: flex;
+  flex-direction: column;
+  font-size: 9px;
+  justify-content: space-between;
+
+  }
+
+  
+  .deux .fa-sun{
+    color: goldenrod;
+  
+    animation: rotation 4s infinite;
+    
+  
+  }
+  
+  .tableau .fa-sun{
+    color: goldenrod;
+   
+    animation: rotation 4s infinite;
+
+
+
+
+
+  }
+  .tableau .fa-moon{
+
+    color: silver;
+   
+
+
+
+
+  }
+  .tableau{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-spacing: 6px 6px;
+
+  }
+ 
+   
+  
+  
+ 
+  
+
+  
+
+  
+  
+ 
+ 
+ 
+  
+  
+   
+  
+  
+  
+  
+   
+  
+  
+  
+  
+ 
+  
+  
